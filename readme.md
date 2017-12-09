@@ -1,5 +1,7 @@
 # rn-nodeify
 
+THIS REPOSITORY HAS MOVED. IT'S NEW LOCATION IS HERE: [https://github.com/tradle/rn-nodeify](https://github.com/tradle/rn-nodeify)
+
 Run after npm install and you can use node core modules and npm modules that use them in your React Native app.
 
 ## What is solves
