@@ -324,7 +324,7 @@ function fixPackageJSON (modules, file, overwrite) {
 
     const { main } = pkgJson
     if (main) {
-      const alt = main.startsWith('./') ? main.slice(2) : './' + main
+      const alt = main.indexOf('./') == 0 ? main.slice(2) : './' + main
       if (depBrowser[alt]) {
         depBrowser[main] = depBrowser[alt]
         log(`normalized "main" browser mapping in ${pkgJson.name}, fixed here: https://github.com/facebook/metro-bundler/pull/3`)
