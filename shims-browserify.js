@@ -6,7 +6,6 @@ module.exports = {
   "console-browserify": "^1.1.0",
   "constants-browserify": "^1.0.0",
   "crypto-browserify": "github:dkostenevich/crypto-browserify",
-  "secp256k1-browserify": "github:dkostenevich/secp256k1-browserify",
   "dns.js": "^1.0.1",
   "domain-browser": "~1.1.0",
   "events": "~1.0.0",

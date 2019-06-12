@@ -22,6 +22,5 @@
   "timers": "timers-browserify",
   "tty": "tty-browserify",
   "vm": "vm-browserify",
-  "secp256k1": "secp256k1-browserify",
   "tls": false
 }
